@@ -1,0 +1,29 @@
+{
+  "name": "tasks",
+  "main": "./lib/tasks",
+  "version": "1.0.1",
+  "description": "Edit .todo files with special syntax highlighting and hotkeys",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/irrationalistic/atom-tasks"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "moment": "~2.6.0"
+  },
+  "readme": "# Tasks Package\n\n![example](https://raw.githubusercontent.com/irrationalistic/atom-tasks/master/images/tasks_example.png)\n\nSpecial formatting for .todo and .taskpaper files. Allows you to easily add, complete,\nand archive your tasks.\n\nAdjust the settings to match your ideal style. Change the markers to '-' to match\ntaskpaper.\n\nThis is based primarily off of https://github.com/aziz/PlainTasks\n\nAny line that ends with : will be considered a header (like My Things:)\n\nThis uses utf characters, so it is still valid as a plain text document.\n\nYou can also set a custom date/time format in the settings. These can be converted\nin an existing document using the Tasks: Update Timestamp Format.\n\n## Hotkeys\n\n* **cmd-enter:** add a new todo item below the current\n* **cmd-d:** toggle completion of the task\n* **cmd-a:** move all completed tasks to the archive section\n* **ctrl-c:** cancel the selected tasks\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/irrationalistic/atom-tasks/issues"
+  },
+  "homepage": "https://github.com/irrationalistic/atom-tasks",
+  "_id": "tasks@1.0.1",
+  "dist": {
+    "shasum": "a7eda53a766371ee85d287dba8a798f8bd103fa1"
+  },
+  "_resolved": "C:\\Users\\DiulleiGomes\\AppData\\Local\\Temp\\d-11469-29916-sgob1a\\package.tgz",
+  "_from": "C:\\Users\\DiulleiGomes\\AppData\\Local\\Temp\\d-11469-29916-sgob1a\\package.tgz"
+}

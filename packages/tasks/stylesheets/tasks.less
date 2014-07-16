@@ -1,0 +1,27 @@
+@import "ui-variables";
+
+.editor {
+  .tasks {
+
+    &.header { color: @text-color-warning; }
+
+    &.text { color: #FFF; }
+
+    &.task { color: @text-color-subtle; }
+
+    &.marker { color: @text-color; }
+
+    &.attribute { color: lighten(@text-color-info, 20%); }
+
+    &.done,
+    &.cancelled {
+      &.marker { color: @text-color-success; }
+      ~.text { color: @text-color-subtle; }
+      ~.attribute { color: darken(@text-color-info, 20%); }
+    }
+
+    &.cancelled.marker { color: @text-color-error; }
+
+    &.meta { color: red; }
+  }
+}

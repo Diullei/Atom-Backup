@@ -1,0 +1,42 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+@helium-color-warning: multiply(@background-color-warning, #888);
+@helium-color-error: multiply(@background-color-error, #888);
+
+.helium {
+}
+
+.helium.error-details {
+    white-space: pre;
+    margin-bottom: 0;
+}
+
+.helium-warning {
+    background-color: @helium-color-warning;
+}
+
+.helium-error {
+    background-color: @helium-color-error;
+}
+
+.helium-typeinfo {
+    font-family: monospace;
+}
+
+.helium-typeinfo .code {
+}
+
+.helium-typeinfo .code:after {
+    content: "::";
+    color: @text-color-highlight;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.helium-typeinfo .type {
+
+}

@@ -1,0 +1,32 @@
+'exception-reporting':
+  'userId': '6ed58179-9c27-111f-d638-b09dead6b47c'
+'welcome':
+  'showOnStartup': false
+'editor':
+  'fontSize': 12
+  'preferredLineLength': 140
+  'showIndentGuide': true
+  'tabLength': 4
+'core':
+  'themes': [
+    'atom-dark-ui'
+    'atom-dark-syntax'
+  ]
+  'disabledPackages': [
+    'jshint'
+    'atom-lint'
+  ]
+'metrics':
+  'userId': 'afdd998fd6b73ebd57d6bbcb1926c5f9e36a43ee'
+'tree-view':
+  'showOnRightSide': false
+'atom-lint':
+  'ignoredNames': [
+    'tmp/**'
+  ]
+  'hlint':
+    'path': 'C:/Users/DiulleiGomes/AppData/Roaming/cabal/bin/hlint.exe'
+'ide-haskell':
+  'ghcModPath': 'C:/Users/DiulleiGomes/AppData/Roaming/cabal/bin/ghc-mod.exe'
+'minimap':
+  'autoToggle': true
