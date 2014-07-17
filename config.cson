@@ -30,3 +30,6 @@
   'ghcModPath': 'C:/Users/DiulleiGomes/AppData/Roaming/cabal/bin/ghc-mod.exe'
 'minimap':
   'autoToggle': true
+'highlight-column':
+  'opacity': 0.15
+  'enableHighlight': true

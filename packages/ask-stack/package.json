@@ -1,7 +1,7 @@
 {
   "name": "ask-stack",
   "main": "./lib/ask-stack",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Quickly get answers and code samples from Stack Overflow in Atom",
   "activationEvents": [
     "ask-stack:ask-question"
@@ -19,6 +19,7 @@
     "atom": ">0.50.0"
   },
   "dependencies": {
+    "request": "2.x",
     "highlight.js": "8.x",
     "copy-paste": "0.2.x"
   },
@@ -28,10 +29,10 @@
     "url": "https://github.com/Chris911/Ask-Stack-Atom/issues"
   },
   "homepage": "https://github.com/Chris911/Ask-Stack-Atom",
-  "_id": "ask-stack@0.0.6",
+  "_id": "ask-stack@0.0.7",
   "dist": {
-    "shasum": "364b76820a4ddbcd17720c7cbcaa47d04b1f5f12"
+    "shasum": "3f41db594042def39984a8b3c1345b74b0969c0e"
   },
-  "_resolved": "C:\\Users\\DIULLE~1\\AppData\\Local\\Temp\\d-114611-39340-11thtck\\package.tgz",
-  "_from": "C:\\Users\\DIULLE~1\\AppData\\Local\\Temp\\d-114611-39340-11thtck\\package.tgz"
+  "_resolved": "/tmp/d-114616-3121-13o8kno/package.tgz",
+  "_from": "/tmp/d-114616-3121-13o8kno/package.tgz"
 }
